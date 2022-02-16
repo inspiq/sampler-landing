@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лучшие коллекции кроссовок Sampler</title>
+    <!--===== CONNECTING CSS =====-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+    <!--===== CONNECTING BOXICONS =====-->
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <!--===== HEADER =====-->
+    <header class="header fixed-top" id="header">
+      <div class="container">
+        <nav class="nav navbar-expand-lg d-flex justify-content-between align-items-center">
+          <div class="nav__toggle" id="nav-toggle">
+            <span></span>
+          </div>
+          <div class="nav__brand p-2">
+            <a class="brand" href="index.html" alt="sampler" title="SAMPLER">SAMPLER</a>
+          </div>
+          <div class="nav__menu" id="nav-menu" data-close="true">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">Главная</a>
+              </li>
+              <li class="nav__item ml-help">
+                <a class="nav__link" data-href="#collection">Каталог</a>
+              </li>
+              <li class="nav__item ml-help">
+                <a class="nav__link" data-href="#male">Мужское</a>
+              </li>
+              <li class="nav__item ml-help">
+                <a class="nav__link" data-href="#women">Женское</a>
+              </li>
+              <li class="nav__item ml-help">
+                <a class="nav__link" data-href="#new-collection">
+                  <span class="red">Новая коллекция</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav__icons row p-2">
+            <div class="search d-flex justify-content-center align-items-center">
+              <i class="bx bx-search d-flex justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <form action="" class="row align-items-center">
+                  <input type="search" placeholder="Поиск по магазину..." class="search__input" />
+                  <button type="submit" class="search__btn">
+                    <i class="bx bx-search bx-search-btn"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="user d-flex justify-content-center align-items-center">
+              <i class="bx bx-user"></i>
+            </div>
+            <div class="shop d-flex justify-content-center align-items-center">
+              <i class="bx bx-shopping-bag"></i>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!--===== CONTENT =====-->
+    <main class="main">
+
+      <!--===== HOME =====-->
+      <div class="home">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <div class="home__data col-12 col-sm-6 col-md-6 d-flex align-items-center justify-content-center">
+              <div class="home__wrap">
+                <p class="home__new">Новое в</p>
+                <h2 class="home__title">YEEZY BOOST</h2>
+                <h2 class="home__title-model">SPLY - 350</h2>
+                <p class="home__desc">Совершай новые открытия вместе с нами</p>
+                <button class="home__btn">Купить сейчас</button>
+              </div>
+            </div>
+            <div class="home__sneaker col-12 col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
+              <div class="home__circle"></div>
+              <img src="https://inspiq.github.io/sampler-landing/img/home/home.png" class="home__img" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--===== FEATURED =====-->
+      <div class="featured">
+        <div class="container">
+          <hr class="hr" />
+          <h2 class="featured__title d-flex justify-content-center text-center">
+            РЕКОМЕНДУЕМЫЕ
+          </h2>
+          <div class="featured__sneakers row">
+            <div class="col-sm-12 col-lg-4 d-flex justify-content-center">
+              <div class="sneaker d-flex flex-column justify-content-center align-items-center">
+                <div class="sneaker__sale d-flex align-items-center justify-content-center">
+                  НОВИНКА
+                </div>
+                <img src="https://inspiq.github.io/sampler-landing/img/featured/featured1.png" class="sneaker__img" />
+                <div class="sneaker__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker__name">Nike Jordan</h2>
+                  <span class="sneaker__price">12 999 ₽</span>
+                  <button class="sneaker__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 d-flex justify-content-center">
+              <div class="sneaker d-flex flex-column justify-content-center align-items-center">
+                <div class="sneaker__sale d-flex align-items-center justify-content-center">
+                  НОВИНКА
+                </div>
+                <img src="https://inspiq.github.io/sampler-landing/img/featured/featured2.png" class="sneaker__img" />
+                <div class="sneaker__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker__name">Nike Free RN</h2>
+                  <span class="sneaker__price">15 999 ₽</span>
+                  <button class="sneaker__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 d-flex justify-content-center">
+              <div class="sneaker d-flex flex-column justify-content-center align-items-center">
+                <div class="sneaker__sale d-flex align-items-center justify-content-center">
+                  НОВИНКА
+                </div>
+                <img src="https://inspiq.github.io/sampler-landing/img/featured/featured3.png" class="sneaker__img" />
+                <div class="sneaker__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker__name">Nike Free RN</h2>
+                  <span class="sneaker__price">15 999 ₽</span>
+                  <button class="sneaker__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--===== COLLECTIONS =====-->
+      <div id="collection" class="collection">
+        <div class="container">
+          <div class="row d-flex justify-content-around">
+            <div class="col-sm-12 col-lg-6 d-flex justify-content-center">
+              <div class="collection__card">
+                <div class="collection__data">
+                  <h2 class="collection__name">Nike</h2>
+                  <p class="collection__desc">Новая коллекция 2021</p>
+                  <button class="collection__buy d-flex align-items-center">
+                    Подробнее<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+                <img src="https://inspiq.github.io/sampler-landing/img/collections/collection1.png" class="collection__img" />
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 d-flex justify-content-center">
+              <div class="collection__card">
+                <div class="collection__data">
+                  <h2 class="collection__name">Adidas</h2>
+                  <p class="collection__desc">Новая коллекция 2021</p>
+                  <button class="collection__buy d-flex align-items-center">
+                    Подробнее<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+                <img src="https://inspiq.github.io/sampler-landing/img/collections/collection2.png" class="collection__img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--===== MALE SNEAKERS =====-->
+      <div id="male" class="male-cards">
+        <div class="container">
+          <hr class="hr" />
+          <h2 class="male-cards__title d-flex justify-content-center text-center">
+            МУЖСКИЕ КРОССОВКИ
+          </h2>
+          <div class="cards-list row d-flex justify-content-center">
+            <div class="col-sm-12 col-md-5 col-lg-3 d-flex justify-content-center">
+              <div class="sneaker-card d-flex flex-column justify-content-center align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/male-sneakers/male1.png" class="sneaker-card__img" />
+                <div class="sneaker-card__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker-card__name">Nike Free RN</h2>
+                  <span class="sneaker-card__price">15 999 ₽</span>
+                  <button class="sneaker-card__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3 d-flex justify-content-center">
+              <div class="sneaker-card d-flex flex-column justify-content-center align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/male-sneakers/male2.png" class="sneaker-card__img" />
+                <div class="sneaker-card__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker-card__name">Nike Free RN</h2>
+                  <span class="sneaker-card__price">15 999 ₽</span>
+                  <button class="sneaker-card__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3 d-flex justify-content-center">
+              <div class="sneaker-card d-flex flex-column justify-content-center align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/male-sneakers/male3.png" class="sneaker-card__img"/>
+                <div class="sneaker-card__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker-card__name">Nike Jordan</h2>
+                  <span class="sneaker-card__price">12 999 ₽</span>
+                  <button class="sneaker-card__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3 d-flex justify-content-center">
+              <div class="sneaker-card d-flex flex-column justify-content-center align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/male-sneakers/male7.png" class="sneaker-card__img" />
+                <div class="sneaker-card__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker-card__name">Nike Air Max</h2>
+                  <span class="sneaker-card__price">11 999 ₽</span>
+                  <button class="sneaker-card__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3 d-flex justify-content-center">
+              <div class="sneaker-card d-flex flex-column justify-content-center align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/male-sneakers/male5.png" class="sneaker-card__img"/>
+                <div class="sneaker-card__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker-card__name">Nike Pegasus</h2>
+                  <span class="sneaker-card__price">13 999 ₽</span>
+                  <button class="sneaker-card__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3 d-flex justify-content-center">
+              <div class="sneaker-card d-flex flex-column justify-content-center align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/male-sneakers/male6.png" class="sneaker-card__img" />
+                <div class="sneaker-card__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker-card__name">Nike Air Max 2</h2>
+                  <span class="sneaker-card__price">13 999 ₽</span>
+                  <button class="sneaker-card__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--===== OFFER =====-->
+      <div class="offer">
+        <div class="container">
+          <div class="col-12 d-flex justify-content-center">
+            <div class="offer__wrap row d-flex justify-content-center">
+              <div class="offer__data d-flex align-items-lg-center flex-column justify-content-center">
+                <h3 class="offer__discount">СКИДКА 50%</h3>
+                <p class="offer__desc">На коллекцию кроссовок Adidas</p>
+                <button class="offer__btn">Подробнее</button>
+              </div>
+              <img src="https://inspiq.github.io/sampler-landing/img/offer/offer.png" class="offer__img" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--===== WOMEN SNEAKERS =====-->
+      <div id="women" class="women-cards">
+        <div class="container">
+          <hr class="hr" />
+          <h2 class="women-cards__title d-flex justify-content-center text-center">
+            ЖЕНСКИЕ КРОССОВКИ
+          </h2>
+          <div class="cards-list row d-flex justify-content-center">
+            <div class="col-sm-12 col-md-5 col-lg-3 d-flex justify-content-center">
+              <div class="sneaker-card d-flex flex-column justify-content-center align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/women-sneakers/women1.png" class="sneaker-card__img" />
+                <div class="sneaker-card__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker-card__name">Nike Free TR</h2>
+                  <span class="sneaker-card__price">8 999 ₽</span>
+                  <button class="sneaker-card__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3 d-flex justify-content-center">
+              <div class="sneaker-card d-flex flex-column justify-content-center align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/women-sneakers/women2.png" class="sneaker-card__img" />
+                <div class="sneaker-card__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker-card__name">Nike Free TR</h2>
+                  <span class="sneaker-card__price">8 999 ₽</span>
+                  <button class="sneaker-card__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3 d-flex justify-content-center">
+              <div class="sneaker-card d-flex flex-column justify-content-center align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/women-sneakers/women3.png" class="sneaker-card__img"/>
+                <div class="sneaker-card__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker-card__name">Nike GS Pink</h2>
+                  <span class="sneaker-card__price">11 999 ₽</span>
+                  <button class="sneaker-card__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3 d-flex justify-content-center">
+              <div class="sneaker-card d-flex flex-column justify-content-center align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/women-sneakers/women4.png" class="sneaker-card__img" />
+                <div class="sneaker-card__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker-card__name">Nike Get 5</h2>
+                  <span class="sneaker-card__price">7 999 ₽</span>
+                  <button class="sneaker-card__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3 d-flex justify-content-center">
+              <div class="sneaker-card d-flex flex-column justify-content-center align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/women-sneakers/women5.png" class="sneaker-card__img"/>
+                <div class="sneaker-card__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker-card__name">Nike Triumph 4</h2>
+                  <span class="sneaker-card__price">13 999 ₽</span>
+                  <button class="sneaker-card__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3 d-flex justify-content-center">
+              <div class="sneaker-card d-flex flex-column justify-content-center align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/women-sneakers/women6.png" class="sneaker-card__img" />
+                <div class="sneaker-card__data d-flex flex-column justify-content-center align-items-center">
+                  <h2 class="sneaker-card__name">Nike Pegasus 25</h2>
+                  <span class="sneaker-card__price">13 999 ₽</span>
+                  <button class="sneaker-card__buy d-flex align-items-center">
+                    Купить сейчас<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--===== NEW COLLECTION =====-->
+      <div id="new-collection" class="new-collection">
+        <div class="container">
+          <hr class="hr" />
+          <h2 class="new-collection__title d-flex justify-content-center text-center">
+            НОВАЯ КОЛЛЕКЦИЯ
+          </h2>
+          <div class="collection-card row d-flex align-items-center justify-content-around">
+            <div class="col-sm-12 col-lg-4 d-flex justify-content-center">
+              <div class="collection-card__large d-flex justify-content-center flex-column align-items-center">
+                <img src="https://inspiq.github.io/sampler-landing/img/new/new1.png" class="collection-card__img-large" />
+                <div>
+                  <h2 class="collection-card__name">Мужская обувь</h2>
+                  <p class="collection-card__price">От 8 999 ₽</p>
+                  <button class="collection-card__buy d-flex align-items-center">
+                    Смотреть коллекцию<i class="bx bx-right-arrow-alt arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-8 row d-flex justify-content-center">
+              <div class="d-flex justify-content-center">
+                <div class="collection-card__little d-flex align-items-center justify-content-center">
+                  <img src="https://inspiq.github.io/sampler-landing/img/new/new2.png" class="collection-card__img" />
+                  <div class="collection-card__overlay d-flex justify-content-center align-items-center">
+                    <button class="collection-card__btn">Купить сейчас</button>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="collection-card__little d-flex align-items-center justify-content-center">
+                  <img src="https://inspiq.github.io/sampler-landing/img/new/new3.png" class="collection-card__img" />
+                  <div class="collection-card__overlay d-flex justify-content-center align-items-center">
+                    <button class="collection-card__btn">Купить сейчас</button>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="collection-card__little d-flex align-items-center justify-content-center">
+                  <img src="https://inspiq.github.io/sampler-landing/img/new/new4.png" class="collection-card__img" />
+                  <div class="collection-card__overlay d-flex justify-content-center align-items-center">
+                    <button class="collection-card__btn">Купить сейчас</button>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="collection-card__little d-flex align-items-center justify-content-center">
+                  <img src="https://inspiq.github.io/sampler-landing/img/new/new5.png" class="collection-card__img" />
+                  <div class="collection-card__overlay d-flex justify-content-center align-items-center">
+                    <button class="collection-card__btn">Купить сейчас</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--===== WE COOPERATE =====-->
+      <div class="cooperate">
+        <div class="container">
+          <div class="row">
+            <div class="cooperate__item col-lg-2 col-sm-4 d-flex justify-content-center align-items-center">
+              <a href="https://www.nike.com/ru/" target="_blank">
+                <img src="https://inspiq.github.io/sampler-landing/img/cooperate/nike.png" alt="" class="cooperate__logo">
+              </a>
+            </div>
+            <div class="cooperate__item col-lg-2 col-sm-4 d-flex justify-content-center align-items-center">
+              <a href="https://www.adidas.ru/" target="_blank">
+                <img src="https://inspiq.github.io/sampler-landing/img/cooperate/adidas.png" alt="" class="cooperate__logo">
+              </a>
+            </div>
+            <div class="cooperate__item col-lg-2 col-sm-4 d-flex justify-content-center align-items-center">
+              <a href="https://ru.puma.com/" target="_blank">
+                <img src="https://inspiq.github.io/sampler-landing/img/cooperate/puma.png" alt="" class="cooperate__logo">
+              </a>
+            </div>
+            <div class="cooperate__item col-lg-2 col-sm-4 d-flex justify-content-center align-items-center">
+              <a href="https://newbalance.ru/" target="_blank">
+                <img src="https://inspiq.github.io/sampler-landing/img/cooperate/nb.png" alt="" class="cooperate__logo">
+              </a>
+            </div>
+            <div class="cooperate__item col-lg-2 col-sm-4 d-flex justify-content-center align-items-center">
+              <a href="https://www.asics.com/ru/" target="_blank">
+                <img src="https://inspiq.github.io/sampler-landing/img/cooperate/asics.png" alt="" class="cooperate__logo">
+              </a>
+            </div>
+            <div class="cooperate__item col-lg-2 col-sm-4 d-flex justify-content-center align-items-center">
+              <a href="https://vans.ru/" target="_blank">
+                <img src="https://inspiq.github.io/sampler-landing/img/cooperate/vans.png" alt="" class="cooperate__logo">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--===== NEWSLATTER =====-->
+      <div class="newslatter">
+        <div class="container">
+          <div class="col-12 d-flex justify-content-center">
+            <div class="newslatter__wrap row d-flex justify-content-center">
+              <div class="newslatter__data d-flex align-items-center flex-column justify-content-center text-center">
+                <h3 class="newslatter__title">
+                  Подпишитесь и получите скидку 10%
+                </h3>
+                <p class="newslatter__desc">
+                  Получите скидку 10% на все товары
+                </p>
+                <form action="" class="newslatter__subscribe d-flex justify-content-center align-items-center">
+                  <input
+                    type="text"
+                    placeholder="example@mail.ru"
+                    class="newslatter__input"
+                  />
+                  <button class="newslatter__btn">Подписаться</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer__wrap d-flex justify-content-between">
+          <div class="footer_nav-one col-sm-12 col-md-4 col-lg-3">
+            <h3 class="footer__title">МЕНЮ</h3>
+            <ul class="footer__explore mt-2">
+              <li class="help-color">
+                <a href="" class="help-color">Главная</a>
+              </li>
+              <li class="mt-2">
+                <a href="" class="help-color">Каталог</a>
+              </li>
+              <li class="mt-2">
+                <a href="" class="help-color">Женское</a>
+              </li>
+              <li class="mt-2">
+                <a href="" class="help-color">Распродажа</a>
+              </li>
+              <li class="mt-2">
+                <a href="" class="help-color">Доставка</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__nav-two col-sm-12 col-md-4 col-lg-3">
+            <h3 class="footer__title">ПОМОЩЬ</h3>
+            <ul class="footer__support mt-2">
+              <li>
+                <a href="" class="help-color">Как выбрать размер</a>
+              </li>
+              <li class="mt-2">
+                <a href="" class="help-color">Обмен и возврат</a>
+              </li>
+              <li class="mt-2">
+                <a href="" class="help-color">Авторизованный сервис</a>
+              </li>
+              <li class="mt-2">
+                <a href="" class="help-color">Условия доставки</a>
+              </li>
+              <li class="mt-2">
+                <a href="" class="help-color">Условия оплаты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__contacts col-sm-12 col-md-4 col-lg-3">
+            <h3 class="footer__title">КОНТАКТЫ</h3>
+            <ul>
+              <li class="footer__info mt-2">Гор. линия:</li>
+              <li class="footer__info mt-2">+7 (800) 511-31-84</li>
+              <li class="footer__info mt-2">+7 (499) 345-32-74</li>
+              <li class="footer__info mt-2">Ежедневно с 9:00 до 21:00</li>
+              <li class="footer__info mt-2">info@sampler.ru</li>
+            </ul>
+          </div>
+          <div class="footer__social col-sm-12 col-md-4 col-lg-3">
+            <ul class="row">
+              <li><a href=""><i class="bx bxl-vk"></i></a></li>
+              <li><a href=""><i class="bx bxl-instagram"></i></a></li>
+              <li><a href=""><i class="bx bxl-facebook-circle"></i></a></li>
+              <li><a href=""><i class="bx bxl-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--===== COPYRIGHT =====-->
+    <footer class="copyright">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="copyright__info">
+            © 2021-2022 Sampler. Все права защищены
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--===== SCROLL UP =====-->
+    <a href="#">
+      <div id="arrow-up" class="scrollUp scroll-up-hide">
+        <span class="scroll-up__icon">
+          <i class='bx bxs-chevron-up' style="color: #F2F2F2; font-size: 30px;"></i>
+        </span>
+      </div>
+    </a>
+
+    <!--===== CONNECTING JQUERY AND SLICK =====-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+
+    <!--===== CONNECTING JS =====-->
+    <script src="js/modal.js"></script>
+    <script src="js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
