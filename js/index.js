@@ -99,8 +99,8 @@ $(".cards-list").slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2500,
-  prevArrow: "<img src='https://inspiq.github.io/sampler-landing/../img/arrows/prev.png' class='slick-prev'>",
-  nextArrow: "<img src='https://inspiq.github.io/sampler-landing/../img/arrows/next.png' class='slick-next'>",
+  prevArrow: "<img src='https://inspiq.github.io/sampler-landing/img/arrows/prev.png' class='slick-prev'>",
+  nextArrow: "<img src='https://inspiq.github.io/sampler-landing/img/arrows/next.png' class='slick-next'>",
   responsive: [
     {
       breakpoint: 1024,
