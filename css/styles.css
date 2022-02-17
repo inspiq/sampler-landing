@@ -10984,7 +10984,7 @@ input::-webkit-search-results-decoration {
 /*===== BURGER =====*/
 .nav__toggle {
   position: relative;
-  width: 20px;
+  width: 25px;
   height: 17px;
   cursor: pointer;
 }
